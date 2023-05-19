@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=DynaPuff&family=Encode+Sans+Condensed&family=Fira+Sans&family=Open+Sans&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.font-body{
+    font-family: 'Open Sans';
+}
+
+.bg-faculty{
+    background-image: url(./assets/bg1.svg);
+}
+
+.bg-student{
+    background-image: url(./assets/bg2.svg);
+}
