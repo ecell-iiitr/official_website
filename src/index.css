@@ -13,5 +13,11 @@
 }
 
 .bg-student{
-    background-image: url(./assets/bg2.svg);
+    /* background-image: url(./assets/bg2.svg); */
+    /* background-image: url(./assets/bg3.png); */
+    --tw-bg-opacity: 0.5;
+}
+
+.grid-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
 }

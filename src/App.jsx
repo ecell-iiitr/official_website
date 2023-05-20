@@ -4,7 +4,7 @@ import Events from "./components/Events";
 import Faculty from "./components/Faculty";
 import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
-// import Student from "./components/Student";
+import Student from "./components/Student";
 import Vision from "./components/Vision";
 
 export default function App() {
@@ -17,7 +17,7 @@ export default function App() {
       <Vision />
       <Events />
       <Faculty />
-      {/* <Student /> */}
+      <Student />
     </div>
   );
 }
