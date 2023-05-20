@@ -34,11 +34,11 @@ const Footer = () => {
           <div className="flex items-center rounded-lg my-12 lg:-ml-6 xl:mx-4">
             <input
               type="text"
-              className="pl-4 sm:pl-6 lg:w-4/5 xl:pr-16 pr-0 py-4 sm:py-6 bg-black text-[#6b7070] outline-none placeholder:text-[#6b7070] text-sm sm:text-xl font-sans"
+              className="w-28 xs:w-full pl-4 sm:pl-6 lg:w-4/5 xl:pr-16 pr-0 py-4 sm:py-6 bg-black text-[#6b7070] outline-none placeholder:text-[#6b7070] text-xs xs:text-sm sm:text-xl font-sans"
               placeholder="type email"
             />
-            <div className="hidden xs:inline bg-zinc-800 py-1 px-2 cursor-pointer hover:opacity-95">
-              <img src={mail} className="w-8 h-8 sm:w-12 sm:h-12 m-1 xl:m-2" alt="" />
+            <div className="bg-orange-600 rounded-r-xl py-1 px-2 cursor-pointer hover:opacity-95">
+              <img src={mail} className="w-8 h-8 sm:w-12 sm:h-12 m-1 xs:mr-4 lg:m-1 xl:m-2" alt="" />
             </div>
           </div>
         </div>
