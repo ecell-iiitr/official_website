@@ -8,7 +8,7 @@ import insta from "../assets/insta.svg"
 
 const Contact = () => {
   return (
-    <div id="contact" className="bg-[#414141] py-8 sm:pt-16 sm:pb-8 px-6 sm:px-12 lg:px-24 flex flex-col xl:flex-row">
+    <div id="contact" className="bg-[#414141] scroll-m-12 py-8 sm:pt-16 sm:pb-8 px-6 sm:px-12 lg:px-24 flex flex-col xl:flex-row">
       <div className="w-full hidden lg:flex items-center xl:block xl:w-2/5 py-8">
         <img src={logo} className="w-full mt-8 pr-24 pb-8" alt="" />
         <h1 className="text-white font-body font-extrabold text-3xl mt-8">
