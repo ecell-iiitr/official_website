@@ -13,18 +13,20 @@ const navigation = [
 export default function Navbar() {
   return (
     <>
-      <div className="min-h-full">
+      <div className="min-h-full top-0 sticky z-50">
         <Disclosure as="nav" className="bg-white">
           {({ open }) => (
             <>
               <div className="mx-auto px-6 sm:px-12 lg:px-24 py-2">
                 <div className="flex items-center justify-between">
                   <div className="flex-shrink-0">
-                    <img
-                      className="md:h-16 md:w-16 h-12 w-12"
-                      src={logo}
-                      alt="Ecell"
-                    />
+                    <a href="#">
+                      <img
+                        className="md:h-16 md:w-16 h-12 w-12 cursor-pointer"
+                        src={logo}
+                        alt="Ecell"
+                      />
+                    </a>
                   </div>
                   <div className="hidden md:block">
                     <div className="flex items-baseline space-x-6">

@@ -6,7 +6,7 @@ import Slide from './EventSlide';
 
 const Events = () => {
   return (
-    <div id="events" className="bg-[#414141] py-8 sm:py-16 px-6 sm:px-12 lg:px-24">
+    <div id="events" className="bg-[#414141] scroll-m-12 py-8 sm:py-16 px-6 sm:px-12 lg:px-24">
       <h1 className="text-2xl xs:text-3xl md:text-4xl lg:text-5xl pb-12 font-body text-center font-bold underline-offset-8 underline text-[#3498D9]">
         Our Events
       </h1>
