@@ -4,10 +4,10 @@ import logo from "../assets/logo.svg";
 
 const navigation = [
   { name: "Home", href: "#", current: true },
-  { name: "About", href: "#", current: false },
-  { name: "Events", href: "#", current: false },
-  { name: "Team", href: "#", current: false },
-  { name: "Contact", href: "#", current: false },
+  { name: "About", href: "#about", current: false },
+  { name: "Events", href: "#events", current: false },
+  { name: "Team", href: "#team", current: false },
+  { name: "Contact", href: "#contact", current: false },
 ];
 
 export default function Navbar() {
