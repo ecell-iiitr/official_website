@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=DynaPuff&family=Encode+Sans+Condensed&family=Fira+Sans&family=Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=DynaPuff&family=Encode+Sans+Condensed&family=Fira+Sans&family=Open+Sans&family=Roboto+Condensed&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .font-body{
-    font-family: 'Open Sans';
+    font-family: 'Roboto Condensed';
 }
 
 .bg-faculty{
@@ -13,5 +16,7 @@
 }
 
 .bg-student{
-    background-image: url(./assets/bg2.svg);
+    /* background-image: url(./assets/bg2.svg); */
+    /* background-image: url(./assets/bg3.png); */
+    --tw-bg-opacity: 0.5;
 }
