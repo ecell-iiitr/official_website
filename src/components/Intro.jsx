@@ -1,6 +1,13 @@
+import { motion } from "framer-motion";
+
 const Intro = () => {
   return (
-    <div className="bg-white py-8 sm:py-16 px-6 sm:px-12 lg:px-24">
+    <motion.div
+      initial={{ opacity: 0.5, scale: 0.5 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 1 }}
+      className="bg-white py-8 sm:py-16 px-6 sm:px-12 lg:px-24"
+    >
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-xl xs:text-2xl md:text-4xl lg:text-5xl pb-8 font-body font-bold text-center text-[#3498D9]">
           What is E-CELL ?
@@ -20,7 +27,7 @@ const Intro = () => {
           entrepreneurship.
         </p>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

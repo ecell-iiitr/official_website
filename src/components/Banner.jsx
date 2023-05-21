@@ -1,11 +1,9 @@
-import banner from "../assets/banner.svg"
 import logo from "../assets/logo.svg";
 
 const Banner = () => {
   return (
-    <div className="flex flex-col justify-center items-center sm:mb-2 lg:mb-40">
-      <img src={banner} className="w-full" alt="" />
-      <div className="-mt-[190px] xs:-mt-[225px] md:-mt-[400px] lg:-mt-[600px] xl:-mt-[800px] space-y-2 sm:space-y-6 lg:space-y-12">
+    <div className="bg-banner py-16 flex flex-col bg-opacity-50 justify-center items-center">
+      <div className="space-y-2 sm:space-y-6 lg:space-y-12">
         <img
           src={logo}
           className="w-16 h-16 sm:w-28 sm:h-28 md:w-40 md:h-40 xl:w-60 xl:h-60 mx-auto"
