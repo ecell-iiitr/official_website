@@ -7,7 +7,7 @@ const StudentSection = ({ title }) => {
       <h1 className="font-bold text-2xl md:text-3xl font-body lg:-rotate-90 py-12 lg:py-0 text-center">
         {title}
       </h1>
-      <div className="xl:col-span-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-16 lg:gap-8 xl:gap-20 lg:-ml-60 xl:-ml-44">
+      <div className="xl:col-span-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-16 lg:gap-8 xl:gap-18 lg:-ml-60 xl:-ml-44">
         <StudentCard />
         <StudentCard />
         <StudentCard />
