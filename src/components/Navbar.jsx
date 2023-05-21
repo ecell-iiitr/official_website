@@ -22,7 +22,7 @@ export default function Navbar() {
                   <div className="flex-shrink-0">
                     <a href="#">
                       <img
-                        className="md:h-16 md:w-16 h-12 w-12 cursor-pointer"
+                        className="md:h-12 md:w-12 h-10 w-10 cursor-pointer"
                         src={logo}
                         alt="Ecell"
                       />
@@ -34,7 +34,7 @@ export default function Navbar() {
                         <a
                           key={item.name}
                           href={item.href}
-                          className={`rounded-md px-3 py-2 text-lg font-medium ${
+                          className={`rounded-md px-3 py-2 text-sm font-medium ${
                             item.current
                               ? "bg-slate-50 text-blue-600"
                               : "text-black hover:bg-slate-100"

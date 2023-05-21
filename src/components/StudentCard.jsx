@@ -8,13 +8,13 @@ const StudentCard = () => {
   return (
     <div className="xs:mx-4">
       <img src={student} className="mx-auto w-2/3 lg:w-3/4" alt="" />
-      <h1 className="text-[#3498D9] font-body text-center font-bold text-xl sm:text-2xl">
+      <h1 className="text-[#3498D9] font-body text-center font-bold pt-1 text-lg sm:text-xl">
         Yash Raj
       </h1>
-      <p className="text-[#3498D9] font-body text-center font-semibold pt-2 text-sm sm:text-base">
+      <p className="text-[#3498D9] font-body text-center font-semibold pt-1 text-xs sm:text-sm">
         (Senior Manager)
       </p>
-      <div className="flex items-center justify-between mx-16 sm:mx-4 xl:mx-8 mt-12">
+      <div className="flex items-center justify-between mx-16 sm:mx-4 xl:mx-8 mt-8">
         <motion.img
           whileHover={{
             scale: 1.2,

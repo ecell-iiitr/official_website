@@ -6,15 +6,15 @@ import { motion } from "framer-motion";
 
 const Card = () => {
   return (
-    <div className="bg-[#3498D9] rounded-[60px] pb-12 pt-4 px-16">
+    <div className="bg-[#3498D9] rounded-[60px] pb-10 pt-2 px-16 xl:px-10">
       <img src={faculty} className="mx-auto w-full" alt="" />
-      <h1 className="text-white font-body text-center font-bold text-xl sm:text-3xl">
+      <h1 className="text-white font-body text-center font-bold text-lg sm:text-2xl">
         Dr. Shalini Mahato
       </h1>
-      <p className="text-white font-body text-center font-semibold pt-2 text-sm sm:text-lg">
+      <p className="text-white font-body text-center font-semibold pt-2 text-sm sm:text-base">
         Faculty at IIIT Ranchi
       </p>
-      <div className="flex items-center justify-between sm:mt-24 mt-12 sm:mx-10 mx-0">
+      <div className="flex items-center justify-between sm:mt-20 mt-12 sm:mx-10 mx-0">
         <motion.img
           whileHover={{
             scale: 1.2,
