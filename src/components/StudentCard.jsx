@@ -2,6 +2,7 @@ import mail from "../assets/mail2.svg";
 import twitter from "../assets/twitter2.svg";
 import linkedin from "../assets/linkedin2.svg";
 import student from "../assets/student.svg";
+import { motion } from "framer-motion";
 
 const StudentCard = () => {
   return (
@@ -14,17 +15,32 @@ const StudentCard = () => {
         (Senior Manager)
       </p>
       <div className="flex items-center justify-between mx-16 sm:mx-4 xl:mx-8 mt-12">
-        <img
+        <motion.img
+          whileHover={{
+            scale: 1.2,
+            transition: { duration: 1 },
+          }}
+          whileTap={{ scale: 0.9 }}
           src={mail}
           className="cursor-pointer hover:opacity-80"
           alt=""
         />
-        <img
+        <motion.img
+          whileHover={{
+            scale: 1.2,
+            transition: { duration: 1 },
+          }}
+          whileTap={{ scale: 0.9 }}
           src={twitter}
           className="cursor-pointer hover:opacity-80"
           alt=""
         />
-        <img
+        <motion.img
+          whileHover={{
+            scale: 1.2,
+            transition: { duration: 1 },
+          }}
+          whileTap={{ scale: 0.9 }}
           src={linkedin}
           className="cursor-pointer hover:opacity-80"
           alt=""

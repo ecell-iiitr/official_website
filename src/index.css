@@ -11,6 +11,11 @@ html {
     font-family: 'Roboto Condensed';
 }
 
+.bg-banner{
+    background-image: url(./assets/banner.svg);
+    background-size: cover;
+}
+
 .bg-faculty{
     background-image: url(./assets/bg1.svg);
 }
