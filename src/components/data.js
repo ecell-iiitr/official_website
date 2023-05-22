@@ -1,5 +1,5 @@
 import faculty from "../assets/faculty.svg";
-import faculty2 from "../assets/faculty2.svg";
+import faculty1 from "../assets/faculty1.svg";
 import operations from "../assets/Operations.jpeg";
 import marketing from "../assets/Joint Research and Marketing.jpg";
 import relations from "../assets/Corporate Relations.jpg";
@@ -8,11 +8,11 @@ import media from "../assets/Social Media.jpg";
 import affairs from "../assets/Student Affairs and PR.jpg";
 
 const navigation = [
-  { name: "Home", href: "#", current: true },
-  { name: "About", href: "#about", current: false },
-  { name: "Events", href: "#events", current: false },
-  { name: "Team", href: "#team", current: false },
-  { name: "Contact", href: "#contact", current: false },
+  { name: "Home", href: "#"},
+  { name: "About", href: "#about"},
+  { name: "Events", href: "#events"},
+  { name: "Team", href: "#team"},
+  { name: "Contact", href: "#contact"},
 ];
 
 const faculties = [
@@ -22,7 +22,7 @@ const faculties = [
   },
   {
     name: "Dr. Hassan Shadab",
-    image: faculty2,
+    image: faculty1,
   },
 ];
 

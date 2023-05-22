@@ -2,8 +2,11 @@ import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import logo from "../assets/logo.svg";
 import { navigation } from "./data";
+import { useState } from "react";
 
 export default function Navbar() {
+  const [nav, setNav] = useState(0);
+
   return (
     <>
       <div className="min-h-full top-0 sticky z-50">
@@ -23,16 +26,17 @@ export default function Navbar() {
                   </div>
                   <div className="hidden md:block">
                     <div className="flex items-baseline space-x-6">
-                      {navigation.map((item) => (
+                      {navigation.map((item, index) => (
                         <a
                           key={item.name}
                           href={item.href}
                           className={`rounded-md px-3 py-2 text-sm font-medium ${
-                            item.current
+                            item.name === navigation[nav].name
                               ? "bg-slate-50 text-blue-600"
                               : "text-black hover:bg-slate-100"
                           }`}
-                          aria-current={item.current ? "page" : undefined}
+                          aria-current={ item.name === navigation[nav].name ? "page" : undefined }
+                          onClick={() => setNav(index)}
                         >
                           {item.name}
                         </a>
@@ -62,20 +66,21 @@ export default function Navbar() {
 
               <Disclosure.Panel className="md:hidden">
                 <div className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
-                  {navigation.map((item) => (
+                  {navigation.map((item, index) => (
                     <Disclosure.Button
                       key={item.name}
                       as="a"
                       href={item.href}
                       className={`
                         ${
-                          item.current
+                          item.name === navigation[nav].name
                             ? "bg-slate-200 text-black"
                             : "hover:bg-slate-100"
                         }
                         block rounded-md px-3 py-2 text-base font-medium
                       `}
-                      aria-current={item.current ? "page" : undefined}
+                      aria-current={item.name === navigation[nav].name ? "page" : undefined}
+                      onClick={() => setNav(index)}
                     >
                       {item.name}
                     </Disclosure.Button>

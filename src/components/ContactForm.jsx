@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 const ContactForm = () => {
   return (
     <div className="space-y-6 font-body">
@@ -88,12 +90,17 @@ const ContactForm = () => {
         </div>
       </div>
       <div className="submit flex justify-end">
-        <button
+        <motion.button
           type="submit"
-          className="inline-flex justify-center py-1 px-4 sm:px-6 border border-transparent shadow-sm text-lg sm:text-xl font-bold rounded-md text-[#414141] bg-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2"
+          className="inline-flex justify-center py-1 px-4 sm:px-6 border border-transparent shadow-sm text-lg sm:text-xl font-bold rounded-md text-[#414141] bg-white hover:opacity-90"
+          whileHover={{
+            scale: 1.1,
+            transition: { duration: 0.5, ease: "easeInOut" },
+          }}
+          whileTap={{ scale: 0.9 }}
         >
           Send
-        </button>
+        </motion.button>
       </div>
     </div>
   );
