@@ -15,6 +15,17 @@ const navigation = [
   { name: "Contact", href: "#contact", current: false },
 ];
 
+const faculties = [
+  {
+    name: "Dr. Shalini Mahato",
+    image: faculty,
+  },
+  {
+    name: "Dr. Hassan Shadab",
+    image: faculty2,
+  },
+];
+
 const students = [
   {
     title: "CORPORATE RELATIONS",
@@ -45,17 +56,6 @@ const students = [
     title: "CREATIVE DESIGN",
     name: "Manjeet Singh",
     image: design,
-  },
-];
-
-const faculties = [
-  {
-    name: "Dr. Shalini Mahato",
-    image: faculty,
-  },
-  {
-    name: "Dr. Hassan Shadab",
-    image: faculty2,
   },
 ];
 
