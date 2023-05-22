@@ -5,7 +5,8 @@ const Intro = () => {
     <motion.div
       initial={{ opacity: 0.5, scale: 0.5 }}
       whileInView={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 1 }}
+      transition={{ duration: 1, ease: "easeInOut" }}
+      viewport={{ once: true }}
       className="bg-white py-8 sm:py-12 px-6 sm:px-12 lg:px-24"
     >
       <div className="flex flex-col items-center justify-center">

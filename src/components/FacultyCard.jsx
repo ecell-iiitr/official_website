@@ -1,15 +1,15 @@
-import faculty from "../assets/faculty.svg";
 import mail from "../assets/mail1.svg";
 import linkedin from "../assets/linkedin1.svg";
 import twitter from "../assets/twitter1.svg";
 import { motion } from "framer-motion";
 
-const Card = () => {
+// eslint-disable-next-line react/prop-types
+const Card = ({ name, image }) => {
   return (
-    <div className="bg-[#3498D9] rounded-[60px] pb-10 pt-2 px-16 xl:px-10">
-      <img src={faculty} className="mx-auto w-full" alt="" />
+    <div className="bg-[#3498D9] rounded-[60px] pb-10 pt-2 px-16 sm:px-8 lg:px-16 xl:px-10">
+      <img src={image} className="mx-auto w-full" alt="" />
       <h1 className="text-white font-body text-center font-bold text-lg sm:text-2xl">
-        Dr. Shalini Mahato
+        {name}
       </h1>
       <p className="text-white font-body text-center font-semibold pt-2 text-sm sm:text-base">
         Faculty at IIIT Ranchi
