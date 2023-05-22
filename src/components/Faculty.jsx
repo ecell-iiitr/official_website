@@ -1,5 +1,17 @@
-import { faculties } from "./data";
 import Card from "./FacultyCard";
+import faculty from "../assets/Faculty.svg";
+import faculty2 from "../assets/Faculty2.svg";
+
+const faculties = [
+  {
+    name: "Dr. Shalini Mahato",
+    image: faculty,
+  },
+  {
+    name: "Dr. Hassan Shadab",
+    image: faculty2,
+  },
+];
 
 const Faculty = () => {
   return (
