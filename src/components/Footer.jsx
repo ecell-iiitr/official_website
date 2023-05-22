@@ -56,7 +56,7 @@ const Footer = () => {
       <div className="text-[#6b7070] font-semibold pb-2 text-center text-xs sm:text-base">
         With love from {"   "}
         <p className="text-white hover:text-orange-300 cursor-pointer inline-flex">
-          E-Cell, IIIT Ranchi
+          <a href="#">E-Cell, IIIT Ranchi</a>
         </p>
       </div>
     </div>
