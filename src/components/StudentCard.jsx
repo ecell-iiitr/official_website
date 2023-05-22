@@ -1,15 +1,15 @@
 import mail from "../assets/mail2.svg";
 import twitter from "../assets/twitter2.svg";
 import linkedin from "../assets/linkedin2.svg";
-import student from "../assets/student.svg";
 import { motion } from "framer-motion";
 
-const StudentCard = () => {
+// eslint-disable-next-line react/prop-types
+const StudentCard = ({ name, image }) => {
   return (
     <div className="xs:mx-4">
-      <img src={student} className="mx-auto w-2/3 lg:w-3/4" alt="" />
+      <img src={image} className="mx-auto rounded-full border-[3px] border-[#3498D9] w-2/3 lg:w-3/4" alt="" />
       <h1 className="text-[#3498D9] font-body text-center font-bold pt-1 text-lg sm:text-xl">
-        Yash Raj
+        {name}
       </h1>
       <p className="text-[#3498D9] font-body text-center font-semibold pt-1 text-xs sm:text-sm">
         (Senior Manager)

@@ -1,14 +1,7 @@
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import logo from "../assets/logo.svg";
-
-const navigation = [
-  { name: "Home", href: "#", current: true },
-  { name: "About", href: "#about", current: false },
-  { name: "Events", href: "#events", current: false },
-  { name: "Team", href: "#team", current: false },
-  { name: "Contact", href: "#contact", current: false },
-];
+import { navigation } from "./data";
 
 export default function Navbar() {
   return (
