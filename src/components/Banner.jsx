@@ -10,7 +10,7 @@ const Banner = () => {
             className="w-16 h-16 sm:w-28 sm:h-28 md:w-40 md:h-40 xl:w-48 xl:h-48 mx-auto"
             alt=""
           />
-          <h1 className="text-lg xs:text-2xl sm:text-3xl md:text-5xl xl:text-6xl text-center font-bold text-[#3498D9]">
+          <h1 className="text-lg xs:text-2xl sm:text-3xl md:text-5xl xl:text-6xl text-center font-bold text-white">
             ENTREPRENEURSHIP CELL <br /> IIIT RANCHI
           </h1>
           <div className="text-center pt-0 xs:pt-4 sm:pt-8 xl:pt-16 text-sm sm:text-lg lg:text-2xl text-white uppercase">
