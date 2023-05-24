@@ -10,19 +10,19 @@ const Footer = () => {
             E-CELL, IIIT RANCHI.
           </h1>
           <div className="bg-[#3a3d3d] h-[1px] w-1/3 lg:w-1/2 mt-4 mb-8 lg:mt-8 lg:mb-12" />
-          <p className="font-serif text-base sm:text-xl py-1">Ideate</p>
-          <p className="font-serif text-base sm:text-xl py-1">Innovate</p>
-          <p className="font-serif text-base sm:text-xl py-1">Incubate</p>
+          <p className="font-serif text-base sm:text-xl py-1 w-fit hover:cursor-pointer hover:text-white">Ideate</p>
+          <p className="font-serif text-base sm:text-xl py-1 w-fit hover:cursor-pointer hover:text-white">Innovate</p>
+          <p className="font-serif text-base sm:text-xl py-1 w-fit hover:cursor-pointer hover:text-white">Incubate</p>
         </div>
         <div>
           <h1 className="text-white text-base sm:text-xl font-body font-bold">
             FOLLOW US.
           </h1>
           <div className="bg-[#3a3d3d] h-[1px] w-1/3 lg:w-1/2 mt-4 mb-8 lg:mt-8 lg:mb-12" />
-          <p className="font-serif text-base sm:text-xl py-1">Facebook</p>
-          <p className="font-serif text-base sm:text-xl py-1">LinkedIn</p>
-          <p className="font-serif text-base sm:text-xl py-1">Instagram</p>
-          <p className="font-serif text-base sm:text-xl py-1">Twitter</p>
+          <p className="font-serif text-base sm:text-xl py-1 w-fit hover:cursor-pointer hover:text-white">Facebook</p>
+          <p className="font-serif text-base sm:text-xl py-1 w-fit hover:cursor-pointer hover:text-white">LinkedIn</p>
+          <p className="font-serif text-base sm:text-xl py-1 w-fit hover:cursor-pointer hover:text-white">Instagram</p>
+          <p className="font-serif text-base sm:text-xl py-1 w-fit hover:cursor-pointer hover:text-white">Twitter</p>
         </div>
         <div>
           <h1 className="text-white text-base sm:text-xl font-body font-bold">
