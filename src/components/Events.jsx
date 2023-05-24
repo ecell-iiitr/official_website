@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectCube, Autoplay, Navigation, Keyboard } from "swiper";
+import { Autoplay, Navigation, Keyboard } from "swiper";
 import 'swiper/css';
 import "swiper/css/navigation";
 import Slide from './EventSlide';
@@ -19,7 +19,6 @@ const Events = () => {
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
         centeredSlides={true}
-        effect={"cube"}
         loop={true}
         autoplay={{
           delay: 5000,
@@ -27,7 +26,7 @@ const Events = () => {
         }}
         navigation={true}
         keyboard={true}
-        modules={[EffectCube, Autoplay, Navigation, Keyboard]}
+        modules={[ Autoplay, Navigation, Keyboard]}
       >
         <SwiperSlide> <Slide /> </SwiperSlide>
         <SwiperSlide> <Slide /> </SwiperSlide>
